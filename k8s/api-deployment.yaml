@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: tanshubham10/k8s-api:v2
+          image: tanshubham10/k8s-api:v3
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
